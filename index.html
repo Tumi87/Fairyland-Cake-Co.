@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAIRYLAND CAKE CO. - Menu & Order</title>
+</head>
+<body>
+    <!-- Main Navigation Header -->
+    <header>
+        <div class="logo">
+            <h1>FAIRYLAND CAKE STUDIO</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">HOME</a></li>
+                <li><a href="index.html">MENU & PRICING</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="#order">ORDER / CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Menu and Pricing Section -->
+        <section id="menu">
+            <h2>Menu & Pricing Guide</h2>
+            <article>
+                <h3>Daily Treats</h3>
+                <p>Whimsical cupcakes and detailed dessert spreads for birthdays and events.</p>
+            </article>
+            <article>
+                <h3>Celebrations</h3>
+                <p>Base prices and dietary options (e.g., eggless, gluten-free).</p>
+            </article>
+        </section>
+
+        <!-- Custom Order Inquiry Form Section -->
+        <section id="order">
+            <h2>Custom Order Inquiry Form</h2>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="flavour">Preferred Flavour:</label><br>
+                <select id="flavour" name="flavour">
+                    <option value="">-- Select Flavour --</option>
+                    <option value="vanilla">Vanilla</option>
+                    <option value="chocolate">Chocolate</option>
+                    <option value="red-velvet">Red Velvet</option>
+                </select><br><br>
+
+                <label for="size">Cake Size:</label><br>
+                <select id="size" name="size">
+                    <option value="">-- Select Size --</option>
+                    <option value="small">Small (6 inch)</option>
+                    <option value="medium">Medium (8 inch)</option>
+                    <option value="large">Large (10 inch)</option>
+                </select><br><br>
+
+                <label for="eventdate">Event Date:</label><br>
+                <input type="date" id="eventdate" name="eventdate"><br><br>
+
+                <label for="dietary">Dietary Requirements:</label><br>
+                <input type="text" id="dietary" name="dietary"><br><br>
+
+                <label for="details">Theme/Design Details:</label><br>
+                <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </section>
+
+        <!-- Location Information Section -->
+        <section class="location-info">
+            <h2>Location & Markets</h2>
+            <p><strong>Map Pickup:</strong> Local pickup details available upon confirmation.</p>
+            <p><strong>Map Weekend Market:</strong> Visit our stall during weekend trading hours.</p>
+        </section>
+    </main>
+
+    <!-- Page Footer -->
+    <footer>
+        <p>&copy; 2026 Fairyland Cake Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
