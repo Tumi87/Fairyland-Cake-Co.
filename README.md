@@ -20,3 +20,8 @@ pdf word,github link
 
 st10515918
 
+<img width="878" height="689" alt="savd" src="https://github.com/user-attachments/assets/5418d8a2-5b93-4b2c-a763-8f53c1966f4a" />
+<img width="897" height="686" alt="save" src="https://github.com/user-attachments/assets/ca009ccc-dc3a-421e-bd94-f940bea54f08" />
+
+
+
